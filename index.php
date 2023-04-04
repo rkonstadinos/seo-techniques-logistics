@@ -3,8 +3,8 @@ require ('dbconnect.php'); // ToDo! DB Connect
 require ('curl-functions.php'); // ToDo! Get CURL functions
 require ('seo-techniques-functions.php'); // ToDo! Get SEO techniques' functions
 
-//create_table(); // ToDo! Create MySQL Table
-//$retrieve = retrieve_data_from_google(); // ToDo! Retrieve data from google
+create_table(); // ToDo! Create MySQL Table
+$retrieve = retrieve_data_from_google(); // ToDo! Retrieve data from google
 clear_dataset(); // ToDO! Remove logistics website missing
 $websites = create_dataset_array(); // ToDo! Create an array with our dataset
 foreach($websites AS $id => $website) { // ToDo! Run through our dataset
